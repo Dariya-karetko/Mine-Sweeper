@@ -8,8 +8,15 @@
     <title>Mine Sweeper</title>
 </head>
 
-<body>
-    
+<body onload="init()">
+    <h1>Mine Sweeper</h1>
+    <H2>😃</H2>
+    <div class="levels">
+        <button class="beginner" onclick="changeLevel(this)">Beginner</button>
+        <button class="medium" onclick="changeLevel(this)">Medium</button>
+        <button class="expert" onclick="changeLevel(this)">Expert</button>
+    </div>
+
     <table border="1">
         <tbody class="board"></tbody>
     </table>

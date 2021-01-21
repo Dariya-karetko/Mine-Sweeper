@@ -1,4 +1,49 @@
+body{
+    text-align: center;
+}
+
+h1{
+    font-style: italic;
+    font-size: 50px;
+}
+
+.levels{
+    margin-top:30px ;
+    margin-bottom: 20px;  
+}
+
+.beginner{
+    cursor: pointer;
+    margin-right: 20px;
+    
+}
+
+.medium{
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.expert{
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+table{
+    margin: auto;
+    border: none;
+}
+
 td {
     width: 30px;
     height: 30px;
+    background-color: lightcyan;
+    cursor: pointer;
+}
+
+td:hover{
+    background-color: mediumturquoise
+}
+
+.shown{
+    background-color: gray;
 }
