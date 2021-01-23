@@ -7,9 +7,15 @@ h1{
     font-size: 50px;
 }
 
-.levels{
-    margin-top:30px ;
-    margin-bottom: 20px;  
+h2{
+    cursor: pointer;
+}
+
+.safe-click{
+    margin-bottom: 20px;
+    width: 70px;
+    height: 40px;
+    
 }
 
 .beginner{
@@ -25,6 +31,10 @@ h1{
 
 .expert{
     cursor: pointer;
+    margin-right: 20px;
+}
+
+.timer{
     margin-right: 20px;
 }
 

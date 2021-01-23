@@ -10,11 +10,16 @@
 
 <body onload="init()">
     <h1>Mine Sweeper</h1>
-    <H2>😃</H2>
+    <h2 onclick="init()">😃</h2>
+    <button class="safe-click" onclick="safeClick(this)">Safe Click</button>
     <div class="levels">
         <button class="beginner" onclick="changeLevel(this)">Beginner</button>
         <button class="medium" onclick="changeLevel(this)">Medium</button>
         <button class="expert" onclick="changeLevel(this)">Expert</button>
+    </div>
+
+    <div class="time">
+        <h3>Time: <span class="timer">0</span> <span class="lives">❤️ ❤️ ❤️</span> </h3>
     </div>
 
     <table border="1">
